@@ -22,3 +22,6 @@
 
     //cy.screenshot("nombre archivo")
     //también se crean solamente cuando se corre por npx.
+
+    //Key para integración continua (se obtiene al iniciar sesión y configurar dashboard)
+    //cypress run --record --key c60bdaf7-1df1-4d1c-b42b-4da7de9be959

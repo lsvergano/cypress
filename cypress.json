@@ -1,18 +1,15 @@
 {
-    "env": {
-        "urlFlybondi": "https://flybondi.com/ar",
-        "urlAyudaMovistar": "https://ayuda.movistar.com.ar/"
-    },
-
-    "viewportWidth":1000,
-    "viewportHeigth":600,
-    "chromeWebSecurity": false,
- 
-    "ignoreTestFiles": [
-        "**/__snapshots__/*",
-        "**/__image_snapshots__/*"
-      ],
-
-      "pluginsFile": "./cypress/plugins/index.js"
-
+  "env": {
+    "urlFlybondi": "https://flybondi.com/ar",
+    "urlAyudaMovistar": "https://ayuda.movistar.com.ar/"
+  },
+  "viewportWidth": 1000,
+  "viewportHeigth": 600,
+  "chromeWebSecurity": false,
+  "ignoreTestFiles": [
+    "**/__snapshots__/*",
+    "**/__image_snapshots__/*"
+  ],
+  "pluginsFile": "./cypress/plugins/index.js",
+  "projectId": "bk17ds"
 }
