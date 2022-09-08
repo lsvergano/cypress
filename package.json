@@ -8,6 +8,7 @@
     "axe-core": "^4.4.3",
     "cypress-axe": "^1.0.0",
     "cypress-file-upload": "^5.0.8",
+    "cypress-grep": "^3.0.3",
     "cypress-plugin-tab": "^1.0.5",
     "cypress-xpath": "^1.6.2"
   }

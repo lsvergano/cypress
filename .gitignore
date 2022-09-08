@@ -1,3 +1,6 @@
 node_modules
 Cypress.exe
 cypress/videos
+*.mp4
+*.jpg
+*.png

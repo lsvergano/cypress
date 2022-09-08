@@ -27,3 +27,6 @@ module.exports = (on, config) => {
   initPlugin(on, config);
   return config;
 };
+
+//const registerCypressGrep = require('cypress-grep')
+//registerCypressGrep()

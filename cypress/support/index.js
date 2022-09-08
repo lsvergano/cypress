@@ -57,3 +57,6 @@ chai.softAssert = function ( ...args ) {
     isSoftAssertion = true;
     return chai.assert(...args);
 }
+
+const registerCypressGrep = require('cypress-grep')
+registerCypressGrep()
