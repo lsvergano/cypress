@@ -1,11 +1,11 @@
-    //Excepciones para atrapar un error
+    /*Excepciones para atrapar un error
     Cypress.on('uncaught:exception', (err, runnable) => {
         return false
-    })
+    })*/
 
     //Aserciones expect:
-    expect(var1).to.equal(var2)
-    expect(var1).to.contain(var2)
+    //expect(var1).to.equal(var2)
+    //expect(var1).to.contain(var2)
 
     //cypress.json
     //"pageLoadTimeout": 9000 (tiempo máximo permitido para cargar una página)
@@ -24,4 +24,5 @@
     //también se crean solamente cuando se corre por npx.
 
     //Key para integración continua (se obtiene al iniciar sesión y configurar dashboard)
-    //cypress run --record --key c60bdaf7-1df1-4d1c-b42b-4da7de9be959
+    //npx cypress run --record --key c60bdaf7-1df1-4d1c-b42b-4da7de9be959
+    //npx cypress run --browser chrome --record --key c60bdaf7-1df1-4d1c-b42b-4da7de9be959 --env grep="texto a filtrar"
