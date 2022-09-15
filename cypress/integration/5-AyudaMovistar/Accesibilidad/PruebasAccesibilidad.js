@@ -13,14 +13,14 @@ describe('Pruebas de accesibilidad', () => {
     const tiposDeServicio = new tiposDeServicioPO()
     let tiempo = 300
     
-    it('El Home es accesible', () => {
+    it.only('El Home es accesible', () => {
         cy.injectAxe();
         cy.checkA11y(); //chequea toda la página.
         //cy.checkA11y(null, null, null, true); //Parámetros para que no falle el test (e igualmente muestra los errores de accesibilidad)
         //cy.wrap({ exclude: [paginaInicial.getMiMovistar()] }).checkA11y() //Exluye el elemento Mi Movistar.
     })
 
-    it('El login es accesible', () => {
+    it.only('El login es accesible', () => {
         paginaInicial.getMiMovistar().click()
         cy.wait(tiempo)
         cy.injectAxe();
@@ -35,3 +35,12 @@ describe('Pruebas de accesibilidad', () => {
         cy.checkA11y();
     })
 })
+
+    /*
+    cy.checkA11y(
+     rules: {
+            'color-contrast': {
+             enabled: false,
+            },
+    )
+    */
